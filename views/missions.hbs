@@ -18,11 +18,16 @@
 
 		<h3>Arkansas BalloonSAT Missions:</h3>
 		<ul>
+			{{#each mission_posts }}
+				<li><a href="abs{{mission_number}}.hbs">ABS-{{ mission_number }}: {{ name }}</a></li>
+			{{/each}}
+		</ul>
+		<!-- <ul>
 			<li><a href="abs50.html">ABS-50: Eclipse Ballooning Project</a></li>
 			<li><a href="abs49.html">ABS-49: Eclipse testing</a></li>
 			<li><a href="abs48.html">ABS-48: Video streaming test</a></li>
 			<li><a href="abs47.html">ABS-47: </a></li>
-		</ul>
+		</ul> -->
 
 	</div>
 </div>

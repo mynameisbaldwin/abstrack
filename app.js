@@ -5,6 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var hbs = require('express-handlebars');
+// var helpers = require('./views/helpers/handlebars')(hbs)
 
 var routes = require('./routes'); //index.js
 //var users = require('./routes/users');
